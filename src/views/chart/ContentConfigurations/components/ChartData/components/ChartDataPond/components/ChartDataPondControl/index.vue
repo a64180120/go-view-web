@@ -1,5 +1,5 @@
 <template>
-  <n-modal class="go-chart-data-pond-control" v-model:show="modelShowRef" :mask-closable="false">
+  <n-modal class="go-chart-data-pond-control" v-model:show="modelShowRef" :mask-closable="false" :close-on-esc="false">
     <n-card :bordered="false" role="dialog" size="small" aria-modal="true" style="width: 900px; height: 650px">
       <template #header></template>
       <template #header-extra> </template>
